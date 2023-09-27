@@ -1,0 +1,2 @@
+Considere  que a universidade tenha cursos diurnos e noturnos, e ofereça para todos os estudantes, o desconto de 20% no turno da manhã e 13% para o turno da tarde e o valor completo para o turno da noite, porém se o aluno realizar o pagamento da matricula antes do vencimento independentemente do turno ele terá um desconto de 5%. Crie o sistema para mostrar as operações solicitadas e considere o valor da mensalidade de R$ 352,87. 
+
