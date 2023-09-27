@@ -6,17 +6,17 @@ public class TerminalAccount {
 
         AccountInfo createNewAccount = new AccountInfo();
 
-        System.out.println("Por favor, insira o número da Agência");
+        System.out.println("Número da Agência");
         createNewAccount.setAgencyNumber(userInput.nextInt());
         userInput.nextLine();
 
-        System.out.println("Por favor, insira o nome da Agência");
+        System.out.println("Nome da Agência");
         createNewAccount.setAgencyName(userInput.nextLine());
 
-        System.out.println("Por favor, insira o nome do Cliente");
+        System.out.println("Nome do Cliente");
         createNewAccount.setClientName(userInput.nextLine());
 
-        System.out.println("Por favor, insira o saldo Inicial");
+        System.out.println("Saldo Inicial");
         createNewAccount.setBalance(userInput.nextDouble());
 
         userInput.close();
